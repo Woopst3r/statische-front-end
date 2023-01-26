@@ -1,7 +1,31 @@
-.content {
+h1{
+    color:green;
+    background-color: aquamarine;
+
+}
+h2{
+    color:blue;
+
+}
+h3{
+    color:purple;
+
+}
+body{
+    background-color: blanchedalmond;
+    margin: 15%;
+    padding: 15%;
+}
+html{
+    background-color: aqua;
+
+}
+
+
+/* .content {
     width: 300px;
     height: 200px;
     padding: 40px;
     margin: 40px;
     border: 20px solid black;
-}
+} */
