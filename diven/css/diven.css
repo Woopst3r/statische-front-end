@@ -7,6 +7,15 @@ h1 {
     font-weight: bold;
     padding: 10px 15px;
 }
+<<<<<<< HEAD
+.first .blauw{
+    color: blue;
+}
+.first .rood{
+    color: red;
+}
+=======
+>>>>>>> 911f96abd7403fc23710ecc7d49a5b802385d61a
 h2 {
     color: red;
 }
