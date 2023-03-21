@@ -15,14 +15,6 @@
     text-align: center;
 }
 
-.socials a {
-    text-decoration: none;
-    color: #fefefe;
-    font-size: 10px;
-    transition: color 0.4s;
-}
-
-
 .copyright {
     width: 100%;
     padding: 20px 0;
@@ -35,6 +27,8 @@
 }
 body{
     background: #0f927a;
+    background-image: url(photo-1638184984605-af1f05249a56.png);
+    background-size: cover;
 }
 *{
     padding: 0;
@@ -46,15 +40,19 @@ body{
 h1{
     text-align: center;
     color: white;
+    font-style: italic;
 }
 p{
     color: white;
+    font-size: 15px;
+    font-style: italic;
 }
 h2{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 100px;
     color: white;
 }
+
 
 .TeskBar :hover{
     color: red;
@@ -97,28 +95,43 @@ a:visited{
     color: #11101b;
     background: #fefefe;
 }
+
+.foto1{
+    margin: 10 33% ;
+}
+
+.wrapper {
+    margin: 42px auto;
+    width: auto;
+}
+
 .container{
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
-    width: 52%;
 }
-img {
-    opacity: 0.5;
-}
-img:hover {
-    opacity: 1.0;
-}
+
 
 .home{
     overflow: scroll;
     scroll-behavior: smooth;
 }
-@media all and (max-width: 800px) {
+.Over_me{
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
-@media all and (max-width: 500px) {
+
+.test{
+    color: white;
 }
-@media all and (max-width: 500px) {
+
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
     .home {
     width: 17em;
     height: 50vh;
@@ -133,9 +146,23 @@ img:hover {
     align-content: center;
     }
 }
-#img{background-image: url(GettyImages-1291886933-e1624308433688.png);
-    background-position: 50% 0;
-    opacity: 50%;
-    min-height: 100vh;
+
+.image-container {
+    padding-top: 5%;
+    margin: 0 auto;
 }
 
+.image-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.jfoto{
+    max-width: 200px;
+    float: right;
+    }
+
+.contact{
+    color: white;
+    margin-top: 10%;
+}
